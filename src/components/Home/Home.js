@@ -101,11 +101,13 @@ class Quiz extends Component {
                 <input type="checkbox" name="size_9" id="size_9" value="9" onChange={this.handleOnChange} /><label>9&nbsp;&nbsp;</label>
                 <input type="checkbox" name="size_12" id="size_12" value="12" onChange={this.handleOnChange} /><label>12 </label>
 
-                <div>
-                  <p>
-                    <button onClick={() => this.start()} className="startQuizBtn btn">Start Quiz</button>
-                  </p>
-                </div>
+                {this.state.tablesArray.length > 0 &&
+                  <div>
+                    <p>
+                      <button onClick={() => this.start()} className="startQuizBtn btn">Start Quiz</button>
+                    </p>
+                  </div>
+                }
 
             </div>
           </div>
