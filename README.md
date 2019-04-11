@@ -1,3 +1,8 @@
+# Multiplication Drills
+Tired of drilling your kids in multiplication drills? Automate it!!!
+
+(https://makkev-multiplication.herokuapp.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
